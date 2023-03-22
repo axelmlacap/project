@@ -6,3 +6,4 @@ Created by Guillaume Chevalier at Neuraxio:
     https://github.com/guillaume-chevalier 
 License: CC0-1.0 (Public Domain)
 """
+from . import examples

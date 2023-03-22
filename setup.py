@@ -23,15 +23,15 @@ setup(
         # TODO: typing.
         "Typing :: Typed"
     ],
-    url='https://github.com/..../....',  # TODO.
-    download_url='https://github.com/.../.../tarball/{}'.format(_VERSION),  # TODO.
-    author='Neuraxio Inc.',  # TODO.
-    author_email='guillaume.chevalier@neuraxio.com',  # TODO.
-    packages=find_packages(include=['project*']),  # TODO.
-    test_suite="testing",
+    url='https://github.com/axelmlacap/project',  # TODO.
+    download_url='https://github.com/axelmlacap/project/tarball/{}'.format(_VERSION),  # TODO.
+    author='Axel Lacapmesure',  # TODO.
+    author_email='alacapmesure@fi.uba.ar',  # TODO.
+    packages=find_packages(where='project'),  # TODO.
+    package_dir={"": "project"},
     setup_requires=["pytest-runner"],
     tests_require=["pytest", "pytest-cov"],
-    install_requires=["neuraxle"],
+    install_requires=["numpy", "tifffile"],
     include_package_data=True,
     license='TODO',  # TODO: set your license string. 
     keywords='empty project TODO keywords'
